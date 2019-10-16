@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Mannik with berries and sour cream</h1>
+
+            <img src="imaage.jpg" alt="Nature">
+
+            <p class="main__p">
+
+Ingredients:
+
+1 tbsp 1 tbsp ●Manka
+Kefir 1 st.
+Sugar 1 st.
+Flour 1 st.
+●3 small eggs
+A pinch of salt
+Vanillin 1/3 hour
+Soda quenched 3/4 hrs ●soda quenched 3/4 hrs ●soda quenched
+● any berries
+Cream: sour cream 150gr, sugar to taste.
+
+Cooking:
+
+1. Mix jar with kefir, leave for 1 hour to swell.
+2. Whisk the eggs with sugar, salt and vanilla, add them to the coin and whisk them.
+3. Gradually add the flour and soda. Lubricate the mold, lay out the berries and pour in the dough.
+4. Oven 40-60min at 170-180*. Check with a match.
+5. Mix the sour cream with sugar while the mannik is baked (do not whip).
+6. Cool the mannik, lubricate with cream.</p>
+
+            <a href="OrderForm.html" class="main__btn">Order recipe</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
